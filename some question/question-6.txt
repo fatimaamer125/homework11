@@ -1,0 +1,6 @@
+q6:-
+Applications in a file that contains  
+all the important files in rials can be controlled by the rials
+and can be deleted and modified by it 
+It can also be controlled by adding modifications and files to BootStrap 
+ and be the main file of the frem work.
