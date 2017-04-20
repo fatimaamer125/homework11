@@ -1,0 +1,33 @@
+q7:-
+in javascript:-
+var a=[1,2,3,4,5];
+var r=['red','blue','black','white','brown'];
+function flattenArrayOfArrays(a, r){
+    for(var i=0; i<a.length; i++){
+        if(a[i].constructor == Array){
+            r.concat(flattenArrayOfArrays(a[i], r));
+        }else{
+            r.push(a[i]);
+        }
+    }
+    return r;
+}
+
+in ruby langauges :-
+ a = [
+ ['red','blue','black','white','brown']
+  [1,2,3,4,5]
+  ]
+b = a.max_by(&:length)
+a = [b]
+b.zip(*a).flatten.compact
+
+
+
+
+
+
+
+
+
+
