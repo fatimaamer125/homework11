@@ -9,9 +9,12 @@
 <body>
   <%= render '/layouts/nav'%>
 <div class="container">
-  
+ 
 <%= yield %>
+ <%= render '/layouts/validation'%><br>
 </div>
-<%= render '/layouts/footer'%>
+
+
+ <%= render '/layouts/footer'%>
 </body>
 </html>
